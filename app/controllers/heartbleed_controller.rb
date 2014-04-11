@@ -38,5 +38,28 @@ class HeartbleedController < ApplicationController
       httponly: true,
       secure: true,
     }
+
+    # Cookies domain: mysterious-journey-5029
+    domain = 'mysterious-journey-5029'
+    cookies[:a3] = {
+      value: "A3",
+      domain: domain,
+    }
+    cookies[:httponly3] = {
+      value: "HttpOnly3",
+      domain: domain,
+      httponly: true,
+    }
+    cookies[:secure3] = {
+      value: "Secure3",
+      domain: domain,
+      secure: true,
+    }
+    cookies[:httponlysecure3] = {
+      value: "HttpOnlySecure3",
+      domain: domain,
+      httponly: true,
+      secure: true,
+    }
   end
 end
