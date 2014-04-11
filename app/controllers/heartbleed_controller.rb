@@ -40,7 +40,7 @@ class HeartbleedController < ApplicationController
     }
 
     # Cookies domain: mysterious-journey-5029
-    domain = 'mysterious-journey-5029'
+    domain = 'mysterious-journey-5029.herokuapp.com'
     cookies[:a3] = {
       value: "A3",
       domain: domain,
