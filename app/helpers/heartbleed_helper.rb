@@ -1,0 +1,2 @@
+module HeartbleedHelper
+end
